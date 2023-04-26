@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("banner") //localhost:8080/banner
-@CrossOrigin(origins = "http://localhost:4200") //direccion del frontend
+@CrossOrigin(origins = "https://portfolio-frontendsoledad.web.app") //direccion del frontend
 
 public class CBanner {
     @Autowired

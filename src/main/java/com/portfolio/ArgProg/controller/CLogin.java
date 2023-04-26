@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("login") //localhost:8080/login
-@CrossOrigin(origins = "http://localhost:4200") //direccion del frontend
+@CrossOrigin(origins = "https://portfolio-frontendsoledad.web.app") //direccion del frontend
 
 public class CLogin {
     @Autowired

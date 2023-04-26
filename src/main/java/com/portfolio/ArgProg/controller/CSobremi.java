@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("sobremi") //localhost:8080/yona
-@CrossOrigin("http://localhost:4200") //direccion del frontend
+@CrossOrigin("https://portfolio-frontendsoledad.web.app") //direccion del frontend
 
 public class CSobremi {
     @Autowired
